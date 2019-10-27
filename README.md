@@ -2,7 +2,7 @@
 
 ## Difference with jhaoda/socialite-mailru
 
-The package jhaoda/socialite-mailru supports legacy mailru OAuth2 based on connect.mail.ru authentification.
+The package jhaoda/socialite-mailru supports only legacy mailru OAuth2 based on connect.mail.ru authentification.
 
 This package works with actual mailru OAuth2 based on oauth.mail.ru.
 
