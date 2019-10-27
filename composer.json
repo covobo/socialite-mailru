@@ -1,5 +1,5 @@
 {
-  "name": "jhaoda/socialite-mailru",
+  "name": "covobo/socialite-mailru",
   "description": "Mail.ru OAuth2 Provider for Laravel Socialite",
   "license": "MIT",
   "authors": [{
