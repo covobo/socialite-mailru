@@ -56,7 +56,7 @@ class MailRuProvider extends AbstractProvider implements ProviderInterface
             'id'       => $user['email'],
             'name'     => $user['first_name'] . ' ' . $user['last_name'],
             'email'    => $user['email'],
-            'nickname' => $user['nickname'],
+            'nickname' => isset($user['nickname']) ? $user['nickname'] : null,
             'avatar'   => $user['image'] ?: null,
         ]);
     }
