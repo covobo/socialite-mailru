@@ -53,9 +53,9 @@ class MailRuProvider extends AbstractProvider implements ProviderInterface
     protected function mapUserToObject(array $user)
     {
         return (new User())->setRaw($user)->map([
-            'id'       => $user['client_id'],
+            'id'       => $user['email'],
             'name'     => $user['first_name'] . ' ' . $user['last_name'],
-            'email'    => array_get($user, 'email'),
+            'email'    => $user['email'],
             'nickname' => $user['nickname'],
             'avatar'   => $user['image'] ?: null,
         ]);
